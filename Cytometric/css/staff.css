@@ -1,0 +1,176 @@
+body {
+    margin: 0 auto;
+    max-width: 80%;
+    height: auto;
+    background-color: #ffffff;
+    
+}
+
+html {
+    background-color: #e6e9e9;
+}
+
+.{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+div.content-slider {
+    width: 100%;
+    height: 60%;
+    background: #000;
+}
+
+div.content-slider-header {
+    width: 100%;
+    height: 100%;
+}
+
+
+div.content-slider img{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+div.content-slider img:nth-child(1){
+    display: block;
+}
+
+div.content-slider-footer {
+    width: 95%;
+    height: auto;
+    position: relative;
+    bottom: 20%;
+    padding-left: 5%;
+    background: rgba(0,0,0,.6);
+}
+
+
+section.content-data {
+    width: 95%;
+    height: auto;
+    margin: 2.5%;
+    display: inline-block;
+    border-style: dotted;
+    border-color: #fff
+}
+section.content-footer{
+        margin-bottom: 5%;
+}
+
+section.content-footer p{
+    text-align: justify;
+}
+
+div.content-info {
+    background: #999;
+    width: 95%;
+    height: auto;
+    padding: 2.5%;
+}
+
+div.content-data-line {
+    margin: 0% 2.5%;
+    height: auto;
+    border-style: dotted;
+}
+
+.content-header p img {
+    float:left;
+    width: 25%;
+    margin: 0% 2% 0% 5%;
+    margin-bottom: 2%;
+    border-radius: 50%;
+    box-shadow: .1em .1em 1em rgba(0,0,0,.3);
+}
+
+
+
+.content-header p{
+    margin: 1.5%;
+}
+
+.content-header {
+    padding-top: 10px; 
+}
+
+.content-header span{
+    font-size: 30px;
+}
+
+.content-footer p{
+    margin: 0% 3.5%;
+    text-align: justify;
+}
+
+
+.content-fooder {
+}
+
+.content-slider-footer p{
+    color: #fff;
+    padding: 1%;
+}
+
+
+@media (max-width: 479px) {
+    
+    .content-header p img{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 5%;
+        padding: 0;
+    }
+    
+    section.content-data{
+        height: auto;
+    }
+    
+    section.content-header{
+        margin: 0% 2%;     
+    }
+    
+    section.content-footer{
+        display: block;
+        margin-bottom: 5%;
+    }
+    
+    div.content-data-line {
+        margin: 2.5%;
+        height: auto;
+        border-style: dotted;
+    }
+}
+
+@media (min-width: 480px) and ( max-width: 620px) {
+
+    
+    .content-header p img{
+        width: 60%;
+        margin: 5% 15%;
+        padding: 0%
+   }
+        
+    section.content-data{
+        height: auto;
+    }
+    
+    div.content-data-line {
+        margin: 2.5%;
+        height: auto;
+        border-style: dotted;
+    }
+    
+    .content-header{
+        display: block;
+        margin: 0% 4%;
+    }
+    
+    section.content-footer{
+        margin: 5% 2%;
+    }
+    
+}
+
