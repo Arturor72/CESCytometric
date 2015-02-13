@@ -1,6 +1,6 @@
 body {
-    margin: 0 auto;
-    max-width: 70%;
+    margin: 0% 2.5%;
+    max-width: 95%;
     background-color: #ffffff;
     
 }
@@ -16,11 +16,10 @@ html {
 }
 
 div.content-slider {
-    width: 100%;
-    height: 60%;
+    width: auto;
+    height: 450px;
     background: #fff;
 }
-
 
 div.content-slider-header {
     width: 100%;
@@ -41,7 +40,7 @@ div.content-slider-footer {
     width: 95%;
     height: auto;
     position: relative;
-    bottom: 20%;
+    bottom: 70px;
     padding-left: 5%;
     background: rgba(0,0,0,.6);
 }
@@ -60,18 +59,19 @@ div.content-data {
     border-color: #000;
 }
 
-.content-data-header {
-    margin: 1%;
-    border-bottom: 3px solid #000;
+.content-data-header h2{
+    margin: 2% 5%;
+    border-bottom: 1px solid #000;
     margin-bottom: 0;
+    border-color: #666;
+    padding-bottom: 1%;
 }
 
 .content-data-body {
-    margin: 1%;
+    margin: 0% 5%;
     height: auto;
     display: inline-block;
-    width: 98%;
-    margin-top: 0%;
+    width: 90%;
 }
 
 .data-body {
@@ -84,24 +84,20 @@ div.content-data {
 
 .data-body p{
     text-align: justify;
-    margin: 2.5%;
-    margin-left: 0%;
 }
 
 .google-maps {
     width: 45%;
-    height: 250;
-    margin: 2.5%;
-    margin-left: 0%;
-    margin-right: 5%;
+    height: 250px;
+    margin: 2.5% 0%;
     float:right;
-    border-style: dotted;
     display: inline-block;
+    border-style: solid;
 }
 
 .content-data-line{
-    width: 98%;
-    margin: 0% 1%;
+    width: 90%;
+    margin: 0% 5%;
     height: auto;
 }
 
@@ -111,9 +107,9 @@ div.content-data {
 
 
 .content-contactus-body {
-    width: 98%;
+    width: 90%;
     height: auto;
-    margin: 1%;
+    margin: 1% 5%;
     display: inline-block;
 }
 
@@ -125,27 +121,24 @@ div.content-data {
 
 .content-contactus-body input {
     border-radius: 5px;
-    width: 80%;
     height: 100%;
-    margin: 2.5%;
-    margin-right: 0px;
-    padding: 1px 5px 0px 5px;
+    margin: 2.5% 0;
+    padding: 5px 0px 0px 5px;
+    width: 100%;
 }
 
 .content-contactus-body textarea{
-    width: 80%; 
+    width: 85%; 
     height: 100%;
     border-radius: 5px;
-    border-width: 2px;
     padding: 0;
-    margin-right: 10%;
+    margin-left: 10%;
     resize: none;
     font-family: Arial;
 }
 
 .content-contactus-body textarea:focus{
     border-color: #000;
-    border-width: 2px;
     border-style: solid;
    -webkit-transition: all .6s ease-out; 
     outline:0px;
@@ -153,9 +146,8 @@ div.content-data {
 
 .content-contactus-body input:focus{
     border-color: #000;
-    border-width: 2px;
     border-style: solid;
-   -webkit-transition: all .6s ease-out;    
+    -webkit-transition: all .6s ease-out; 
     outline:0px;
     
 }
@@ -195,5 +187,62 @@ div.content-data {
     width: 35%;
     top: 0%;
     position: fixed;
+    
+}
+
+@media ( max-width: 620px) {
+    body{
+        max-width: 100%;
+        margin: 0;
+    }
+        
+    
+    div.content-slider {
+        width: 100%;
+        height: 250px;
+        background: #fff;
+    }
+    
+    
+    div.content-slider-footer {
+        width: 95%;
+        position: relative;
+        bottom: 50px;
+        padding-left: 5%;
+        background: rgba(0,0,0,.6);
+    }
+    
+    .data-body {
+        width: 100%;
+        float: none;
+    }
+
+    
+    .google-maps {
+        width: 100%;
+        float:none;
+        display: inline-block;
+    }
+    
+    .content-contactus-body {
+        width: 100%;
+        height: auto;
+        float: right;
+    }
+    
+    .content-contactus-body textarea{
+        float: none;
+        width: 100%;
+        display: inline-block;
+    }
+    
+    .content-contactus-body input {
+        border-radius: 5px;
+        width: auto;
+        height: 100%;
+        padding: 1px 5px 0px 5px;
+        display: inline-block;
+    }
+    
     
 }
