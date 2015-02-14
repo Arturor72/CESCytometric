@@ -103,8 +103,8 @@ h2,h4{
 
 .content-header2 span img {
     float:right;
-    height: 200px;
-    margin: 5% 5% 5% 10%;
+    width: 400px;
+    margin: 0%;
     border-style: solid;
 }
 
