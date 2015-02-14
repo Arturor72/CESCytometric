@@ -15,9 +15,14 @@ html {
     padding: 0px;
 }
 
+
+div.content-data{
+    background:#DACAFB;
+}
+
 div.content-slider {
     width: auto;
-    height: 450px;
+    height: 650px;
     background: #fff;
 }
 
@@ -55,7 +60,6 @@ div.content-data {
     height: auto;
     margin: 2.5%;
     display: table;
-    border-style: dotted;
     border-color: #000;
 }
 
@@ -160,8 +164,8 @@ div.content-data {
 }
 
 .content-contactus-send input:active{
-    background: #000;
-    color: #fff;
+    background: #fff;
+    color: #986AB2;
 }
 
 .content-contactus-send input:focus{
@@ -170,9 +174,11 @@ div.content-data {
 .content-contactus-send input{
     width: 20%;
     height: 40px;
-    border-color: #000;
+    color:#fff;
+    background-color: #986AB2;
     border-radius: 5px;
     -webkit-transition: all .3s ease-out;
+    font-weight: bold;
 }
 
 #map3{
