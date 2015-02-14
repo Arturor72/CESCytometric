@@ -37,7 +37,7 @@ div.content-slider img:nth-child(1){
 }
 
 div.content-slider-footer {
-    width: 95%;
+    width: 100%;
     height: auto;
     position: relative;
     bottom: 70px;
@@ -175,11 +175,15 @@ div.content-data {
     -webkit-transition: all .3s ease-out;
 }
 
-#map1{
+#map3{
     height: 100%;
     width: 100%;
 }
 
+#map2{
+    height: 100%;
+    width: 100%;
+}
 
 .title {
     background: rgba(0,0,0,.5);
@@ -205,10 +209,9 @@ div.content-data {
     
     
     div.content-slider-footer {
-        width: 95%;
+        width: 100%;
         position: relative;
         bottom: 50px;
-        padding-left: 5%;
         background: rgba(0,0,0,.6);
     }
     

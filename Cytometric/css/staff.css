@@ -1,5 +1,5 @@
 body {
-    margin: 0 2.5%;
+    margin: 0;
     max-width: 100%;
     height: auto;
     background-color: #ffffff;
@@ -38,7 +38,7 @@ div.content-slider img:nth-child(1){
 }
 
 .content-slider-footer {
-    width: 96%;
+    width: 100%;
     height: auto;
     position: relative;
     bottom: 70px;
@@ -52,7 +52,7 @@ div.content-slider img:nth-child(1){
     height: auto;
     margin: 2.5%;
     display: inline-block;
-    border-style: dashed;
+    border-style: solid;
     border-color: #000;
 }
 .content-footer{
@@ -186,7 +186,7 @@ p{
 
     
     .content-slider-footer {
-        width: 96%;
+        width: 100%;
         height: auto;
         position: relative;
     }
@@ -215,7 +215,7 @@ p{
     div.content-data-line {
         margin: 2.5%;
         height: auto;
-        border-style: dotted;
+        border-style: solid;
     }
     
     
