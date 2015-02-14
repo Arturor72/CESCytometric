@@ -17,7 +17,7 @@ html {
 
 div.content-slider {
     width: auto;
-    height: 650px;
+    height: 450px;
     background: #fff;
 }
 
@@ -43,7 +43,7 @@ div.content-slider img:nth-child(1){
     position: relative;
     bottom: 70px;
     padding-left: 4%;
-    background: rgba(0,0,0,.4);
+    background: rgba(0,0,0,.3);
 }
 
 
@@ -52,7 +52,8 @@ div.content-slider img:nth-child(1){
     height: auto;
     margin: 2.5%;
     display: inline-block;
-    border-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid; 
     border-color: #000;
 }
 .content-footer{
@@ -95,7 +96,8 @@ h2,h4{
     float:left;
     width: auto;
     height: 350px;
-    margin: 2% 10% 2% 5%;
+    margin: 2% 10% 5% 2%;
+    border-radius: 5%;
     display: inline-block;
     margin-bottom: 2%;
     border-style: solid;
@@ -104,8 +106,11 @@ h2,h4{
 .content-header2 span img {
     float:right;
     width: 400px;
-    margin: 5% 5% 5% 10%;
+    margin: 0% 0% 5% 0%;
+    border-radius: 5%;
     border-style: solid;
+    display: inline-block;
+    opacity: .85;
 }
 
 
@@ -137,9 +142,8 @@ p{
 @media (max-width: 479px) {
     
     .content-header span img{
-        width: 98%;
+        width: 100%;
         margin: 0;
-        margin-bottom: 5%;
         padding: 0;
     }
     
@@ -147,7 +151,6 @@ p{
         width: 98%;
         padding: 0%;
         margin: 0%;
-        margin-bottom: 5%;
    }
     
     .content-data{
