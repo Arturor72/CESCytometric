@@ -4,15 +4,21 @@
 }
 
 
+
 body{
 	background:rgba(0, 0, 0, 0.8);
   	color: #FFFFFF;
 }
 
+
+
 div#headerPrincipal{
 	background-color: #986AB2;
 	padding: 30px;
+	margin-top: 15%;
 }
+
+
 
 
 div.minibox{
@@ -20,19 +26,28 @@ div.minibox{
 background-color: #986AB2;
 }
 
+/*
+div.slider img{
+
+	position: absolute;
+	overflow: hidden;
+}*/
+
 
 footer{
+width: 100%;	
 padding-top: 15px;
 padding-bottom: 15px;
 background:rgba(0, 0, 0, 0.8);
 color: #FFFFFF;
 text-align: center;
-
 }
 
+
 footer img{
-width: 60px;
-height: 60px;
+
+width: 30px;
+height: 30px;
 
 }
 

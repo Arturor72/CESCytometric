@@ -9,10 +9,57 @@
 	<link rel="stylesheet" type="text/css" href="css/custom_style_nosotros.css">
 </head>
 <body>
+	<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" style="height:10%;">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-8 col-xs-6" >
+                            <img src="img/logos/logo3.png" id="logo" class="img-responsive"/>
+                    </div>
+                </div>
+                    
+
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Servicio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="staff.html">Staff</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="contactos.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        
+    </nav>
 	<div class="container">
 		<div id="headerPrincipal" class="row">
-			<div class="col-md-6 col-sm-6 col-xs-12 image">
-				<img src="img/nosotros/skyBlue.jpg" class="text-center cortar" style="width:100%;">
+			<div class="col-md-6 col-sm-6 col-xs-12 slider">
+				<img src="img/nosotros/skyBlue.jpg" class="text-center" style="width:100%;">
+				<!--<img src="img/nosotros/laboratorio.jpg" class="text-center" style="width:100%;">-->
 			</div>
 			<div class="col-md-6 col-sm-6 col-xs-12">
 				<div class="title text-center"><h1>RESEÑA HISTORICA</h1></div>
@@ -112,17 +159,29 @@
 			</div>
 		</div>
 
-	<footer>
+	<footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<h2>Cytometric</h2>
 		<p>Derechos Reservados CopyRgitht 2015</p>
-		<ul class="socials list-inline">
+		<ul class="socials list-inline ">
 			<li><img src="img/nosotros/facebook.jpg" alt=""></li>
 			<li><img src="img/nosotros/twitter.jpg" alt=""></li>
-			<li><img src="img/youtube.png" alt=""></li>
+			<li><img src="img/nosotros/youtube.jpg" alt=""></li>
 		</ul>
 	</footer>
 
 </div>
+
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js' type='text/javascript'> </script>
+<script type="text/javascript">//<![CDATA[
+    $(function(){
+        $('.slider div:gt(0)').hide();
+        setInterval(function(){
+          $('.slider div:first-child').fadeOut(0)
+             .next('div').fadeIn(1000)
+             .end().appendTo('.slider');}, 5000);
+    });
+  //]]></script>
+
 
 </body>
 </html>
