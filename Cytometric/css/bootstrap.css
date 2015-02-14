@@ -938,7 +938,7 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 100%;
   width: 100%;
 }
 .img-rounded {
@@ -5859,6 +5859,7 @@ button.close {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
     left: 0;
+      height: 100%;
   }
 }
 .carousel-inner > .active,
