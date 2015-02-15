@@ -20,9 +20,9 @@ div.content-data{
     background:#DACAFB;
 }
 
-div.content-slider {
+.content-slider {
     width: auto;
-    height: 650px;
+    height: 550px;
     background: #fff;
 }
 
@@ -45,12 +45,12 @@ div.content-slider-footer {
     width: 100%;
     height: auto;
     position: relative;
-    bottom: 70px;
+    bottom: 100px;
     padding-left: 5%;
     background: rgba(0,0,0,.6);
 }
 
-.content-slider-footer p{
+.content-slider-footer h3{
     color: #fff;
     padding: 1%;
 }
@@ -181,16 +181,6 @@ div.content-data {
     font-weight: bold;
 }
 
-#map3{
-    height: 100%;
-    width: 100%;
-}
-
-#map2{
-    height: 100%;
-    width: 100%;
-}
-
 .title {
     background: rgba(0,0,0,.5);
     height: 40px;
@@ -198,6 +188,26 @@ div.content-data {
     top: 0%;
     position: fixed;
     
+}
+
+/*CSS Mpapa*/
+#map1{
+    height: 100%;
+    width: auto;
+}
+#map2{
+    height: 100%;
+    width: auto;
+}
+
+.infowindow{
+    width: auto;
+    padding: 0px
+}
+
+.infowindow img{
+    width: 100%;
+    height: auto;
 }
 
 @media ( max-width: 620px) {
@@ -229,7 +239,6 @@ div.content-data {
     
     .google-maps {
         width: 100%;
-        float:none;
         display: inline-block;
     }
     
