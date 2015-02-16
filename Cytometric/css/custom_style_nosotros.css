@@ -1,13 +1,13 @@
 body{
-	background:rgba(0, 0, 0, 0.8);
-  	color: #FFFFFF;
+	color: #1C0C4F;
 }
-
-
-.espacio{
-	padding-bottom:100px; 
+div.title h1{
+	padding-top: 30px;
+}
+div.description p{
+	padding-bottom:80px; 
 	padding-top:50px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 
@@ -18,30 +18,57 @@ body{
 }
 
 
-
-
 div#headerPrincipal{
-	background:rgba(0, 0, 0, 0.8);
 	padding: 30px;
-	margin-top: 60px;
+	margin-top: 100px;
 }
 
 div.slider img{
 	padding-top:30px; 
-	width: 90%;
+	width: 100%;
 
 }
 
+
 div.lineTime {
 	display: inline-block;
-	font-weight: bold;
-	margin-top: 20px;
-	margin-left: 45%;
-	padding: 13px;
-	border-width: 3px;
-	border-color: #986AB2;
-	border-style: solid;
-	background: #986AB2;
+	margin-top: -80px;
+	border-radius: 5px;
+	border-width: 1px;
+	background: #F0CBFF;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-color: #1C0C4F;
+	text-align: center;
+	margin-left: 40%;
+}
+
+
+
+div.minibox{
+	margin: 3%;
+}
+
+
+
+
+footer{
+width: 100%;	
+padding-top: 15px;
+padding-bottom: 15px;
+background:rgba(0, 0, 0, 0.8);
+color: #FFFFFF;
+text-align: center;
+}
+
+
+footer img{
+
+width: 30px;
+height: 30px;
+
 }
 
 
@@ -93,15 +120,31 @@ div.lineTime {
 div.slider img{
 	padding-top:30px; 
 	width: 101%;
-	height: 450px
+	height: 500px
 
+}
+div.container div.title h1{
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+div.container div.description p.espacio{
+	font-size: 18px;
+	padding-left: 30px;
+	margin-bottom: -20px;
 }
 
 div.lineTime {
-	
-	margin-top: -60px;
-
-	
+	margin-top: -80px;
+	border-radius: 5px;
+	border-width: 1px;
+	background: #F0CBFF;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-color: #1C0C4F;
+	text-align: center;
 }
 
 }
@@ -112,9 +155,9 @@ div.lineTime {
 
 div.slider img{
 	margin-top: 30px;
-	padding-top:60px; 
+	padding-top:30px; 
 	width: 100%;
-	height: 450px
+	height: 500px
 }
 
 .espacio{
@@ -133,29 +176,6 @@ margin-left: 35%;
 
 
 
-div.minibox{
-	margin: 3%;
-background-color: #986AB2;
-}
 
-
-
-
-footer{
-width: 100%;	
-padding-top: 15px;
-padding-bottom: 15px;
-background:rgba(0, 0, 0, 0.8);
-color: #FFFFFF;
-text-align: center;
-}
-
-
-footer img{
-
-width: 30px;
-height: 30px;
-
-}
 
 
