@@ -1,23 +1,21 @@
 body {
-    margin: 0% 2.5%;
+    margin: 0;
     max-width: 100%;
-    background-color: #ffffff;
-    
 }
-
-html {
-    background-color: #e6e9e9;
-}
-
 
 .{
     margin: 0px;
     padding: 0px;
 }
-
+p,h1,h2 , h3 {
+    color:#1C0C4F;
+}
 
 div.content-data{
-    background:#DACAFB;
+    background:#fff;
+    height: auto;
+    display: inline-block;
+    width: 100%;
 }
 
 .content-slider {
@@ -45,8 +43,8 @@ div.content-slider-footer {
     width: 100%;
     height: auto;
     position: relative;
-    bottom: 100px;
-    padding-left: 5%;
+    bottom: 75px;
+    padding-left: 2%;
     background: rgba(0,0,0,.6);
 }
 
@@ -56,19 +54,18 @@ div.content-slider-footer {
 }
 
 div.content-data {
-    width: 95%;
     height: auto;
-    margin: 2.5%;
-    display: table;
-    border-color: #000;
+    padding: 0 10%;
+    padding-top: 5%;
 }
 
 .content-data-header h2{
     margin: 2% 5%;
     border-bottom: 1px solid #000;
     margin-bottom: 0;
-    border-color: #666;
+    border-color: #1C0C4F;
     padding-bottom: 1%;
+    color:#1C0C4F;
 }
 
 .content-data-body {
@@ -79,7 +76,7 @@ div.content-data {
 }
 
 .data-body {
-    width: 45%;
+    width: 50%;
     height: auto;
     float: left;
     margin: 2.5%;
@@ -92,7 +89,7 @@ div.content-data {
 
 .google-maps {
     width: 45%;
-    height: 250px;
+    height: 280px;
     margin: 2.5% 0%;
     float:right;
     display: inline-block;
@@ -113,43 +110,34 @@ div.content-data {
 .content-contactus-body {
     width: 90%;
     height: auto;
-    margin: 1% 5%;
+    margin: 0% 5%;
     display: inline-block;
 }
 
-.content-contactus-body table{
-    width: 100%;
-    text-align: left;
-    height: auto;
-}
 
 .content-contactus-body input {
-    border-radius: 5px;
-    height: 100%;
-    margin: 2.5% 0;
-    padding: 5px 0px 0px 5px;
     width: 100%;
+    margin-bottom: 4.45%;
 }
 
 .content-contactus-body textarea{
-    width: 85%; 
-    height: 100%;
-    border-radius: 5px;
-    padding: 0;
-    margin-left: 10%;
+    width: 100%;
+    height: 450px;
+    margin: 0%;
+    margin-right: 2%;
+    padding-left: 1%;
     resize: none;
-    font-family: Arial;
 }
 
 .content-contactus-body textarea:focus{
-    border-color: #000;
+    border-color: #DACAFB;
     border-style: solid;
    -webkit-transition: all .6s ease-out; 
     outline:0px;
 }
 
 .content-contactus-body input:focus{
-    border-color: #000;
+    border-color: #DACAFB;
     border-style: solid;
     -webkit-transition: all .6s ease-out; 
     outline:0px;
@@ -158,26 +146,29 @@ div.content-data {
 
 .content-contactus-send {
     width: 95%;
-    height: 100%;
+    height: auto;
     text-align: center;
     margin: 2.5%;
+    margin-bottom: 10%;
 }
 
 .content-contactus-send input:active{
     background: #fff;
-    color: #986AB2;
+    color: #1C0C4F;
 }
 
 .content-contactus-send input:focus{
     outline:0px;
 }
+
 .content-contactus-send input{
     width: 20%;
     height: 40px;
     color:#fff;
-    background-color: #986AB2;
+    background-color: #1C0C4F;
     border-radius: 5px;
     -webkit-transition: all .3s ease-out;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -223,6 +214,10 @@ div.content-data {
         background: #fff;
     }
     
+    div.content-data{
+        width: 100%;
+        margin: 5% 0;
+    }
     
     div.content-slider-footer {
         width: 100%;
@@ -245,22 +240,13 @@ div.content-data {
     .content-contactus-body {
         width: 100%;
         height: auto;
-        float: right;
+        margin: 0 2.5%;
     }
     
     .content-contactus-body textarea{
-        float: none;
-        width: 100%;
-        display: inline-block;
+        width: 96%;
     }
-    
     .content-contactus-body input {
-        border-radius: 5px;
-        width: auto;
-        height: 100%;
-        padding: 1px 5px 0px 5px;
-        display: inline-block;
+        width: 96%;
     }
-    
-    
 }
