@@ -5,54 +5,64 @@
 	<title>Nosotros</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1,maximun-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap_nosotros.css">
-	<link rel="stylesheet" type="text/css" href="css/custom_style_nosotros.css">
-	<link href="css/freelancer.css" rel="stylesheet">
-	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	
+    
+         <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/custom_style_nosotros.css">
 
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    
+        
+   
+    <script src="js/modernizr.custom.js"></script>
+  
 
-	 
 </head>
 <body>
-	<!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html">
-                    <img style="padding-top: 5px; max-width:100px; margin-top: -7px;" src="img/logos/logo3.png">
-                    </a>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="staff.html">Staff</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a href="contactos.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-
+	    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <img src="img/logos/logo3.png" style="max-width:150px;"/>
+                </a>
             </div>
 
-        </nav>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="staff.html">Staff</a>
+                    </li>
+                    <li>
+                        <a href="contactos.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
     
-	<div class="container">
+	
 		<div id="headerPrincipal" class="row">
 			<div class="col-md-6 col-sm-6 col-xs-12 slider">
 				<!--<img src="img/nosotros/skyBlue.jpg" class="text-center" style="width:100%;">-->
@@ -74,7 +84,7 @@
 
 		<div class="row nosotros">
 			<div class="col-md-12">
-				<h2>Visíon</h2>
+				<h2>Visión</h2>
 				<hr>
 				<p>Ser el centro de referencia a nivel nacional en servicios de citometría de flujo para diagnóstico oncohematológico, a través de la capacitación continua de nuestros profesionales, investigación celular aplicada e implementación de nuevas tecnologías en el campo de la inmunología y hematología. </p>
 			</div>
@@ -145,21 +155,6 @@
 
 
 
-
-
-
-	<!--<footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-		<h2>Cytometric</h2>
-		<p>Derechos Reservados CopyRgitht 2015</p>
-		<ul class="socials list-inline ">
-			<li><img src="img/nosotros/facebook.jpg" alt=""></li>
-			<li><img src="img/nosotros/twitter.jpg" alt=""></li>
-			<li><img src="img/nosotros/youtube.jpg" alt=""></li>
-		</ul>
-	</footer>-->
-
-</div>
-
 <footer class="text-center">
         <div class="footer-above">
             <div class="container">
@@ -204,6 +199,15 @@
         </div>
     </footer>
 
+
+
+   <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/grayscale.js"></script>    
 
 
 

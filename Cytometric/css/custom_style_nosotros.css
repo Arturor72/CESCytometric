@@ -1,6 +1,11 @@
-body{
-	color: #1C0C4F;
+/*body {
+    width: 100%;
+    height: 100%;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #1C0C4F;
+    background-color: #DACAFB;
 }
+
 div.title h1{
 	padding-top: 30px;
 }
@@ -54,13 +59,8 @@ div.minibox{
 
 
 
-footer{
-width: 100%;	
-padding-top: 15px;
-padding-bottom: 15px;
-background:rgba(0, 0, 0, 0.8);
-color: #FFFFFF;
-text-align: center;
+footer.pie{
+background: #DACAFB;
 }
 
 
@@ -174,6 +174,177 @@ margin-left: 35%;
 
 }
 
+*/
+
+
+
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+body {
+    
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #1C0C4F;
+   
+}
+
+
+
+div.title h1{
+	padding-top: 30px;
+}
+div.description p{
+	padding-bottom:80px; 
+	padding-top:50px;
+	font-size: 18px;
+}
+
+
+.container{ 
+	width: 100%;
+	padding-right:15px; 
+	padding-left:15px;
+}
+
+
+div#headerPrincipal{
+	padding: 30px;
+	margin-top: 100px;
+}
+
+
+div.slider img{
+	padding-top:30px; 
+	width: 100%;
+
+}
+
+
+div.lineTime {
+	display: inline-block;
+	margin-top: -80px;
+	border-radius: 5px;
+	border-width: 1px;
+	background: #F0CBFF;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-color: #1C0C4F;
+	text-align: center;
+	margin-left: 40%;
+}
+
+
+
+div.minibox{
+	margin: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+a {
+    color: #1C0C4F;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #11505d;
+}
+
+.light {
+    font-weight: 400;
+}
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: rgba(238,238,238,.5);
+}
+
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+    outline: 0;
+    background-color: rgba(228,241,254,.6);
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #fff;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+}
+/*****************************************************************/
+
+
+ footer{
+    padding: 20px 0;
+    background-color: #DACAFB;
+}
 
 
 
