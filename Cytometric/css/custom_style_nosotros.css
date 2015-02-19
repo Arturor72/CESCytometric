@@ -195,21 +195,13 @@ body {
 
 
 div.title h1{
-	padding-top: 120px;
+	padding-top: 50px;
 }
 div.description p{
-	padding-bottom:80px; 
+	padding-bottom:60px; 
 	padding-top:50px;
-	font-size: 18px;
+	font-size: 16px;
 }
-
-
-.container{ 
-	width: 100%;
-	padding-right:15px; 
-	padding-left:15px;
-}
-
 
 div#headerPrincipal{
 	padding: 30px;
@@ -294,7 +286,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 0 0 20px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -303,7 +295,7 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
@@ -325,15 +317,48 @@ a:focus {
     font-weight: 400;
 }
 
-.navbar-custom {
 
+.navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #B37DEE;
+    background-color: rgba(238,238,238,.5);
 }
 
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #1C0C4F;
+}
+
+.navbar-custom .nav li.active {
+    outline: nonte;
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
 
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
@@ -347,7 +372,7 @@ a:focus {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
-         background-color: #B37DEE;
+        background: 0 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -362,12 +387,3 @@ a:focus {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
 }
-/*****************************************************************/
-
-
-
-
-
-
-
-
