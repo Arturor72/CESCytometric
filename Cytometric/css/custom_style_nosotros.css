@@ -195,7 +195,7 @@ body {
 
 
 div.title h1{
-	padding-top: 30px;
+	padding-top: 120px;
 }
 div.description p{
 	padding-bottom:80px; 
@@ -219,24 +219,24 @@ div#headerPrincipal{
 
 div.slider img{
 	padding-top:30px; 
-	width: 100%;
+	width: 95%;
 
 }
 
 
-div.lineTime {
+p.lineTime {
 	display: inline-block;
-	margin-top: -80px;
 	border-radius: 5px;
-	border-width: 1px;
-	background: #F0CBFF;
-	padding-top: 10px;
-	padding-bottom: 5px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border-color: #1C0C4F;
+	border:1px solid #1C0C4F;
+	background: #CFB0FF;
+	vertical-align: center;
 	text-align: center;
 	margin-left: 40%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+
 }
 
 
@@ -245,20 +245,43 @@ div.minibox{
 	margin: 3%;
 }
 
+button.search{
+	border: 2px solid transparent;
+	margin-top: 10px;
+	background-color: transparent;
+}
+
+button.search:focus{
+	box-shadow: 2px 2px 10px #1C0C4F;
+	margin-top: 10px;
+	background-color: transparent;
+}
 
 
 
+.changecolor{
+color: black;
+
+}
 
 
 
+.like{
+	margin-top: 20px;
+}
 
+.nosotros{
+	padding-left: 50px;
+   padding-right: 50px;
+}
+.nosotros h2{
+	font-size: 20px;
+}
 
-
-
-
-
-
-
+ footer{
+ 	padding-top: 50px;
+    background-color: #DACAFB;
+}
 
 
 
@@ -303,11 +326,12 @@ a:focus {
 }
 
 .navbar-custom {
+
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #DACAFB;
+    background-color: #B37DEE;
 }
 
 
@@ -323,7 +347,7 @@ a:focus {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
-         background-color: #DACAFB;
+         background-color: #B37DEE;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -341,10 +365,7 @@ a:focus {
 /*****************************************************************/
 
 
- footer{
-    padding: 20px 0;
-    background-color: #DACAFB;
-}
+
 
 
 
