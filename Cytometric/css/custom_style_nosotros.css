@@ -195,17 +195,17 @@ body {
 
 
 div.title h1{
-	padding-top: 50px;
+	padding-top: 30px;
 }
 div.description p{
-	padding-bottom:60px; 
-	padding-top:50px;
+	padding-bottom:5px; 
+	padding-top:5px;
 	font-size: 16px;
 }
 
 div#headerPrincipal{
 	padding: 30px;
-	margin-top: 100px;
+	margin-top: 60px;
 }
 
 
@@ -217,13 +217,12 @@ div.slider img{
 
 
 p.lineTime {
-	display: inline-block;
+	display: absolute;
 	border-radius: 5px;
 	border:1px solid #1C0C4F;
 	background: #CFB0FF;
 	vertical-align: center;
 	text-align: center;
-	margin-left: 40%;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 30px;
@@ -286,7 +285,8 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 20px;
+    margin: 0;
+    margin-bottom: 20px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -369,10 +369,10 @@ a:focus {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 0;
         border-bottom: solid 1px #1C0C4F;
         letter-spacing: 1px;
-        background: rgba(238, 238, 238, .5);
+        background: #DACAFB;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -380,7 +380,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: rgba(238,238,238,1);
+        background-color: #DACAFB;
     }
 
     .navbar-custom.top-nav-collapse {

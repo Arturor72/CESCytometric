@@ -123,7 +123,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #fff;
+        background-color: #DACAFB;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -147,7 +147,7 @@ a:focus {
 }
 
 .intro .intro-body {
-    display: table-cell;
+    display: table-row-group;
     vertical-align: middle;
 }
 
@@ -333,7 +333,7 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 20px 0;
+    padding-top: 20px;
 }
 
 footer p {
@@ -367,8 +367,8 @@ body {
 #portfolio1 {
     background-color: #DACAFB;
     color: #1C0C4F;
-    margin-top: 2%;
     padding-top: 5%;
+    margin-top: 2%;
     padding-bottom: 2%;
     margin-bottom: 2%;
 }
@@ -419,4 +419,31 @@ body {
     text-align: center;
     font-size: 20px;
     color: #fff;
+}
+
+header .scroll-down {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    text-align: center;
+}
+
+header .scroll-down .btn {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #1C0C4F;
+    border-radius: 100%;
+    line-height: 50px;
+    padding: 0;
+    letter-spacing: normal;
+    color: #1C0C4F;
+    opacity: .3;
+    font-size: 30px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+header .scroll-down .btn:hover {
+    opacity: .8;
 }
