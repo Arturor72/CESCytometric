@@ -1,189 +1,3 @@
-/*body {
-    width: 100%;
-    height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #1C0C4F;
-    background-color: #DACAFB;
-}
-
-div.title h1{
-	padding-top: 30px;
-}
-div.description p{
-	padding-bottom:80px; 
-	padding-top:50px;
-	font-size: 18px;
-}
-
-
-.container{ 
-	width: 100%;
-	padding-right:15px; 
-	padding-left:15px;
-}
-
-
-div#headerPrincipal{
-	padding: 30px;
-	margin-top: 100px;
-}
-
-div.slider img{
-	padding-top:30px; 
-	width: 100%;
-
-}
-
-
-div.lineTime {
-	display: inline-block;
-	margin-top: -80px;
-	border-radius: 5px;
-	border-width: 1px;
-	background: #F0CBFF;
-	padding-top: 10px;
-	padding-bottom: 5px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border-color: #1C0C4F;
-	text-align: center;
-	margin-left: 40%;
-}
-
-
-
-div.minibox{
-	margin: 3%;
-}
-
-
-
-
-footer.pie{
-background: #DACAFB;
-}
-
-
-footer img{
-
-width: 30px;
-height: 30px;
-
-}
-
-
-
-@media (min-width: 300px) and (max-width: 380px) {
-	
-	div.lineTime {
-	margin-top: -20px;
-	margin-left: 15%;
-	}
-	
-}
-
-@media (min-width: 380px) and (max-width: 470px) {
-	
-	div.lineTime {
-		margin-top: -20px;
-		margin-left: 18%;
-		}
-
-}
-
-@media (min-width: 470px) and (max-width: 460px) {
-	
-	div.lineTime {
-	margin-top: -20px;
-	margin-left: 25%;
-	}
-
-
-	
-}
-@media (min-width: 460px) and (max-width: 767px) {
-	
-	div.lineTime {
-	margin-top: -20px;
-	margin-left: 35%;
-	}
-
-
-
-}
-
-
-
-
-
-@media (min-width: 1180px) and (max-width: 1278px) {
-div.slider img{
-	padding-top:30px; 
-	width: 101%;
-	height: 500px
-
-}
-div.container div.title h1{
-	font-size: 30px;
-	margin-top: 50px;
-}
-
-div.container div.description p.espacio{
-	font-size: 18px;
-	padding-left: 30px;
-	margin-bottom: -20px;
-}
-
-div.lineTime {
-	margin-top: -80px;
-	border-radius: 5px;
-	border-width: 1px;
-	background: #F0CBFF;
-	padding-top: 10px;
-	padding-bottom: 5px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border-color: #1C0C4F;
-	text-align: center;
-}
-
-}
-
-
-
-@media (min-width: 768px) and (max-width: 1180px) {
-
-div.slider img{
-	margin-top: 30px;
-	padding-top:30px; 
-	width: 100%;
-	height: 500px
-}
-
-.espacio{
-	padding-bottom:100px; 
-	padding-top:50px;
-	font-size: 18px;
-}
-
-div.lineTime {
-margin-top: -40px;
-padding: 5px;
-margin-left: 35%; 
-}
-
-}
-
-*/
-
-
-
-/*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 
 body {
     
@@ -192,7 +6,12 @@ body {
    
 }
 
-
+.resena{
+	margin-top: 9%;
+}
+.description p{
+	text-align: justify;
+}
 
 div.title h1{
 	padding-top: 30px;
@@ -209,8 +28,9 @@ div#headerPrincipal{
 }
 
 
+
 div.slider img{
-	padding-top:30px; 
+	/*padding-top:30px; */
 	width: 95%;
 
 }
@@ -233,7 +53,7 @@ p.lineTime {
 
 
 div.minibox{
-	margin: 3%;
+	margin: 4%;
 }
 
 button.search{
@@ -367,7 +187,81 @@ a:focus {
     background-color: rgba(228,241,254,.6);
 }
 
-@media(min-width:767px) {
+.text-justify{
+	text-align: justify;;
+}
+
+
+
+/* Large desktop */
+@media (min-width: 1200px){ 
+	.container {
+		width: 100%;
+	}
+}
+@media (max-width: 1200px){ 
+	.container {
+		width: 100%;
+	}
+	.resena{
+		margin-top: 2%;
+	}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+	.container {
+		width: 100%;
+	}
+	.resena{
+	margin-top: 1%;
+	}
+	p.lineTime{
+		width: 60%;
+		display: block;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	div.description p{
+		font-size: 14px;
+	}
+	div#headerPrincipal{
+	 padding-right: 5px;
+	 padding-left: 5px;
+	}
+	.nosotros{
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+}
+
+@media(max-width:767px) {
+	div.slider img{
+		width: 100%;
+	}
+	div.slider {
+		margin-bottom: 20px;
+	}
+	p.lineTime{
+		width: 60%;
+		display: block;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	div#headerPrincipal{
+		 padding-right: 5px;
+		 padding-left: 5px;
+	}
+	.nosotros{
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
     .navbar {
         padding: 0;
         border-bottom: solid 1px #1C0C4F;
