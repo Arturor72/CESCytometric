@@ -341,10 +341,12 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
+    border-bottom: solid 1px #1C0C4F;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: rgba(238,238,238,.5);
+    background-color: #DACAFB;
+
 }
 
 .navbar-custom .navbar-brand {
