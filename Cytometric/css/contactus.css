@@ -55,7 +55,7 @@ div.content-slider-footer {
 
 div.content-data {
     height: auto;
-    padding: 0 10%;
+    padding: 0 5%;
     padding-top: 5%;
 }
 
@@ -216,7 +216,8 @@ div.content-data {
     
     div.content-data{
         width: 100%;
-        margin: 5% 0;
+        margin: 0;
+        padding-right: 6%;
     }
     
     div.content-slider-footer {
@@ -236,6 +237,12 @@ div.content-data {
         width: 100%;
         display: inline-block;
     }
+
+    .content-data-header{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
     
     .content-contactus-body {
         width: 100%;
@@ -243,6 +250,11 @@ div.content-data {
         margin: 0 2.5%;
     }
     
+    .content-contactus-send input{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
     .content-contactus-body textarea{
         width: 96%;
     }
