@@ -341,11 +341,10 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: solid 1px #1C0C4F;
+    border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #DACAFB;
-    height: 40px;
+    background-color: rgba(238,238,238,.5);
 }
 
 .navbar-custom .navbar-brand {
@@ -356,9 +355,6 @@ a:focus {
     outline: 0;
 }
 
-.navbar-custom.top-nav-collapse {
-border-bottom: 1px solid #1C0C4F;
-}
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
