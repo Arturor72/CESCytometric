@@ -193,7 +193,7 @@ body {
 }
 
 .resena{
-	margin-top: 9%;
+	margin-top: 12%;
 }
 .description p{
 	text-align: justify;
@@ -209,8 +209,17 @@ div.description p{
 }
 
 div#headerPrincipal{
-	padding: 30px;
-	margin-top: 60px;
+	/*padding: 30px;
+	margin-top: 60px;*/
+	margin: 0% 0%;
+}
+.nosotros{
+	/*padding-left: 50px;
+   padding-right: 50px;*/
+   margin: 0% 1%;
+}
+.nosotros h2{
+	font-size: 20px;
 }
 
 
@@ -221,9 +230,15 @@ div.slider img{
 
 }
 
+.content-data{
+	height: auto;
+	display: inline-block;
+	padding: 5% 10%;
+}
+
 
 p.lineTime {
-	width: 60%;
+	width: 50%;
 	display: block;
 	text-align: center;
 	margin-left: auto;
@@ -238,15 +253,15 @@ p.lineTime {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 0px;
+	padding-right:0px;
 
 }
 
 
 
 div.minibox{
-	margin: 4%;
+	/*margin: 4%;*/
 }
 
 button.search{
@@ -274,13 +289,6 @@ color: black;
 	margin-top: 20px;
 }
 
-.nosotros{
-	padding-left: 50px;
-   padding-right: 50px;
-}
-.nosotros h2{
-	font-size: 20px;
-}
 
  footer{
  	padding-top: 50px;
@@ -402,6 +410,19 @@ a:focus {
 	}
 	.resena{
 		margin-top: 2%;
+	}
+}
+@media (max-width: 890px){ 
+	#headerPrincipal .col-sm-6{
+	width: 100%;
+	}
+	#headerPrincipal .col-sm-6 img{
+		width: 100%;
+	}
+	.container {
+		/*width: 100%;*/
+		/*padding-right: 3%;*/
+		/*padding-left: 3%;*/
 	}
 }
 
