@@ -38,8 +38,8 @@ function initialize(){
 
     var obj = new Object();
     obj.name = "Sede Trujillo"
-    obj.lat = -8.1131438
-    obj.lng = -79.0299046
+    obj.lat = -8.0973666
+    obj.lng = -79.0481732
     obj.img = "trujillo"
     ListaMapas[1] = obj;
     /************************************************/
